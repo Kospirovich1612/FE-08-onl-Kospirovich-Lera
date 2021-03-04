@@ -1,0 +1,33 @@
+@import url("../css/awesome.css");
+@import url("../css/pricing.css");
+@import url("../css/customers.css");
+@import url("../css/stylish.css");
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  position: relative;
+  z-index: 1; 
+  }
+
+  .title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+  margin: 0 auto;
+  text-align: center;
+  color: #212121;
+  }
+  .description{
+    margin-bottom: 67px;
+    text-align: center;
+    color: #86878b;
+  }
+
+
+
+
