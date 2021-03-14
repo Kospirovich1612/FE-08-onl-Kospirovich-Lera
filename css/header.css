@@ -1,0 +1,214 @@
+.header {
+    background-image: url(../img/background-1\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+  }
+  .header::after {
+    top: 0;
+    right: 0;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.45);
+  }
+  .container__header{
+      max-width: 1170px;
+      padding: 111px 15px 101px 15px;
+      margin: auto;
+      display: flex;
+      text-align: center;
+      justify-content: space-between;
+      position: relative;
+      z-index: 1;
+  }
+  .axit{
+      width: 544px;
+      text-align: left ;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+  .logotip{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 3px; 
+  }
+  .title__axit{
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+  .title__axit::after{
+      content:"";
+      display: block;
+      margin-top: 32px;
+      margin-bottom: 39px;
+      width: 64px;
+      height: 1px;
+      background-color: #86878b;
+  }
+  .text__header{
+     width: 282px;
+     font-family: "Raleway", sans-serif;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 19px;
+     color: #86878b;
+     margin-bottom: 39px;
+  }
+  .plate{
+      width: 370px;
+      margin-left: 15px;
+      margin-right: 15px;
+      overflow: hidden;
+      border-radius: 8px;
+  }
+  .content{
+    background-color: #ffffff;
+    height: 370px;
+    padding-top: 15px;
+  }
+  .button__axit{
+      margin-top: 68px;
+      margin-bottom: 12px;
+  }
+  .downland {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    padding: 11px 26px;
+    transition: 0.5s;
+  }
+  .download:hover {
+    background-color: rgb(231, 93, 88);
+    border: 1px solid rgb(224, 53, 53);
+  }
+.plate__title{
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
+  color: #333333;
+  margin-bottom: 59px;
+  margin-top: 0;
+}
+.redword{
+    color: #ec7979;
+}
+.item__plate{
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    padding-right: 59px;
+    padding-bottom: 0;
+    padding-left: 59px;
+    margin-bottom: 19px;
+}
+.item__plate:last-child{
+    margin-bottom: 0;
+}
+.item__label{
+    text-transform: capitalize;
+    text-align: start;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    color: #bdbdbd;
+}
+.item__input{
+  width: 252px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+}
+.item__input:focus{
+outline: none;
+background-color: rgba(241, 193, 193, 0.966);
+}
+.button__axit-free{
+  background-color: #ec7979;
+  list-style: none;
+  margin: 0;
+  padding: 21px 0;
+  transition: 0.05s;
+}
+.button__axit-free:hover{
+  background-color: #bdbdbd;
+}
+.button__started{
+  text-decoration: none;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+@media ( max-width: 320px ) {
+ .axit{
+  margin-right: 0;
+  margin-left: 0;
+ }
+ .plate{
+  width: 320px;
+  margin-right: 0;
+  margin-left: 0;
+ }
+ .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .item__plate{
+  padding: 0;}
+}
+@media ( max-width: 1005px ) {
+  .container__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .axit{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .text__header{
+    margin: auto;
+  }
+  .title__axit::after{
+  margin-left: auto;
+  margin-right: auto;
+  }
+}

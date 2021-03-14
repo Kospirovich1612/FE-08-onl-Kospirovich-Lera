@@ -1,0 +1,131 @@
+.contact{
+    width:100%;
+    padding-top: 80px;
+    padding-bottom: 44px;
+}
+
+.contact__text{
+  margin-bottom: 91px;  
+}
+.message__block{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.personality__block{
+    margin: 0 15px;
+}
+.contact__item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+.contact__label{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 400;
+    font-style: normal;
+    color: #bdbdbd;
+    text-transform: capitalize;
+}
+.contact__input{
+  width: 478px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #bdbdbd;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+}
+.contact__item:last-child{
+    margin-bottom: 0;
+}
+.contact__input:focus{
+    outline: none;
+    background-color: rgba(226, 146, 146, 0.9);
+}
+.message{
+margin: 0 15px;
+}
+.message__container {
+    width: 478px;
+    display: flex;
+    flex-direction: column;
+  }
+.message__textarea{
+    height: 217px;
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+    text-transform: capitalize;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    resize: none;
+}
+.message__textarea:focus{
+   outline: none; 
+}
+.input__send{
+    text-align: center;
+    margin-top: 69px;
+}
+.send__message{
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ec7979;
+    border: 1px solid #ffffff;
+    padding: 11px 32px 11px 31px;
+    transition: 0.3s;
+}
+.send__message:hover{
+background-color: skyblue;
+outline: 0;
+}
+.send__message:active{
+    outline: 0;
+}
+.send__message:focus{
+    outline: 0;
+}
+@media (max-width: 1019px) {
+    .personality__block {
+      margin-bottom: 30px;
+    }
+  }
+  @media (max-width: 687px) {
+    .contact__input {
+      width: 320px;
+    }
+    .message__container {
+      width: 320px;
+    }
+  }
+  @media (max-width: 320px) {
+    .personality__block {
+      width: 320px;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .contact__label {
+      text-align: center;
+    }
+    .contact__input {
+      width: 320px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
